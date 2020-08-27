@@ -1,8 +1,148 @@
-* {
-  margin: 0;
-  padding: 0;
+#head .head-top {
+  background-color: #eeeeee;
+  overflow: hidden;
 }
-.wrapper {
-  width: 1200px;
-  margin: auto;
+#head .head-top .head-top-left {
+  margin-left: 50px;
+  width: 30%;
+}
+#head .head-top .head-top-left ul {
+  margin-top: 10px;
+  width: 100%;
+}
+#head .head-top .head-top-left ul li {
+  color: #c8c8c8;
+  float: left;
+  margin-bottom: 10px;
+}
+#head .head-top .head-top-left ul li a {
+  line-height: 12px;
+  color: #cc0000;
+  margin: 10px;
+}
+#head .head-top .head-top-right {
+  width: 42%;
+}
+#head .head-top .head-top-right ul {
+  margin-top: 10px;
+  width: 100%;
+}
+#head .head-top .head-top-right ul li {
+  color: #cad3e1;
+  float: left;
+}
+#head .head-top .head-top-right ul li a {
+  line-height: 12px;
+  color: #747474;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+#head .head-top .head-top-right ul li a:hover {
+  color: #cc0000;
+}
+#head .head-center {
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+#head .head-center .head-center-logo {
+  width: 210px;
+  margin-top: 10px;
+  float: left;
+}
+#head .head-center .head-center-logo img {
+  width: 174px;
+  height: 80px;
+}
+#head .head-center .head-center-select {
+  float: left;
+}
+#head .head-center .head-center-select .select {
+  float: left;
+  width: 794px;
+  height: 96px;
+  padding-top: 20px;
+}
+#head .head-center .head-center-select .select p {
+  margin-left: 8px;
+  display: inline;
+}
+#head .head-center .head-center-select .select span {
+  display: block;
+  float: left;
+  margin-right: 22px;
+}
+#head .head-center .head-center-select .select span a {
+  color: #747474;
+}
+#head .head-center .head-center-select .select .select-left {
+  margin-left: 28px;
+  display: block;
+  width: 68px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #cc0000;
+  border-radius: 19px 0 0 19px;
+  border-right: 0;
+  float: left;
+  text-align: center;
+}
+#head .head-center .head-center-select .select input {
+  width: 450px;
+  height: 36px;
+  border: 1px solid #cc0000;
+  border-left: #b7b7b7 1px solid;
+  border-right: 0;
+  float: left;
+}
+#head .head-center .head-center-select .select .select-right-border {
+  float: left;
+  border: 1px solid #cc0000;
+  border-radius: 0 19px 19px 0;
+  border-left: 0;
+  border-right: 0;
+}
+#head .head-center .head-center-select .select .select-right-border .select-right {
+  display: block;
+  line-height: 36px;
+  border: 1px solid #cc0000;
+  border-radius: 19px;
+  text-align: center;
+  width: 70px;
+  height: 36px;
+  float: left;
+  background-color: #cc0000;
+}
+#head .head-center .head-center-select .select img {
+  display: block;
+  margin: 0 0 0 30px;
+  width: 145px;
+  height: 44px;
+  float: left;
+}
+#head .head-center .head-center-buycar {
+  margin-top: 20px;
+  margin-right: 45px;
+  width: 140px;
+  height: 40px;
+  float: right;
+  border: #747474 1px solid;
+  border-radius: 20px;
+}
+#head .head-center .head-center-buycar img {
+  width: 26px;
+  height: 24px;
+  float: left;
+  margin: 9px 0px 9px 16px;
+}
+#head .head-center .head-center-buycar .car {
+  width: 80px;
+  height: 22px;
+  margin: 10px 0;
+  float: right;
+}
+#head .head-center .head-center-buycar .car > span {
+  float: left;
+  line-height: 22px;
+  display: block;
+  color: #747474;
 }

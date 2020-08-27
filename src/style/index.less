@@ -1,8 +1,161 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-.wrapper{
-  width: 1200px;
-  margin: auto;
+#head{
+  .head-top{  
+    background-color: #eeeeee;
+    overflow: hidden;  
+    .head-top-left{
+      margin-left: 50px;
+      width: 30%;
+      ul{       
+        margin-top: 10px;
+        width: 100%;
+        li{
+          color: #c8c8c8; 
+          float: left;
+          margin-bottom: 10px;
+          a{
+            line-height: 12px;
+            color:#cc0000;
+            margin: 10px;
+          }
+        }
+      }
+    }
+    .head-top-right{
+      width: 42%;
+      ul{
+        margin-top: 10px;
+        width: 100%;
+        li{
+          color: #cad3e1;    
+          float: left;
+          a{    
+            line-height: 12px;
+            color: #747474;
+            margin-right: 10px;
+            margin-left: 20px;
+            &:hover{
+              color: #cc0000;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+  .head-center{
+    overflow: hidden;
+    background-color: #f5f5f5;
+    .head-center-logo{
+      img{
+        width: 174px;
+        height: 80px;
+      }
+      width: 210px;
+      margin-top:10px;
+      float: left;
+
+
+    }
+
+    .head-center-select{
+      float: left;
+      .select{
+        float: left;
+        width: 794px;
+        height: 96px;
+        padding-top: 20px;
+        
+        p{
+          margin-left: 8px;
+          display: inline;
+        }
+        span{
+          display: block;
+          
+          float: left;
+          margin-right: 22px;
+          a{
+            color: #747474;
+          }
+        }
+        .select-left{
+          margin-left: 28px;
+          display: block;
+          width: 68px;
+          height: 36px;
+          line-height: 36px;
+          border: 1px solid #cc0000;
+          border-radius:19px 0 0 19px;
+          border-right: 0;
+          float: left;
+          text-align: center;
+        }
+        input{
+          width:450px;
+          height: 36px;
+          border: 1px solid #cc0000;
+          border-left:#b7b7b7 1px solid;
+          border-right: 0;
+          float: left;
+        }
+        .select-right-border{
+          float: left;
+          border: 1px solid #cc0000;
+          border-radius:0 19px 19px 0;
+          border-left: 0;
+          border-right: 0;
+          .select-right{
+            display: block;
+            line-height: 36px;
+            border: 1px solid #cc0000;
+            border-radius: 19px;
+            text-align: center;
+            width: 70px;
+            height: 36px;
+            float: left;
+            background-color: #cc0000;
+          }
+        }
+        
+        img{
+          display: block;
+          margin: 0 0 0 30px;
+          width: 145px;
+          height: 44px;
+          float: left;
+        }
+      }
+    }
+    .head-center-buycar{
+      margin-top: 20px;
+      margin-right: 45px;
+      width: 140px;
+      height: 40px;
+      float: right;
+      border: #747474 1px solid;
+      border-radius: 20px;
+      img{
+        width: 26px;
+        height: 24px;
+        float: left;
+        margin: 9px 0px 9px 16px;
+        
+      }
+      .car{
+        width: 80px;
+        height: 22px;
+        margin: 10px 0;
+        float: right;
+        >span{
+          float: left;
+          line-height: 22px;
+          display: block;
+          color: #747474;
+          
+          
+        }
+      }
+
+    }
+  }
 }
