@@ -4,9 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>格力电器</title>
   <link rel="stylesheet" href="../style/reset.css">
   <link rel="stylesheet" href="../style/index.css">
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <!-- 引入组件库 -->
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 </head>
 
 <body>
@@ -16,20 +20,20 @@
       <div class="wrapper">
         <div class="head-top-left left">
           <ul>
-            <li><a href="">登录</a>|</li>
-            <li><a href="">注册</a>|</li>
+            <li><a href="./login.html">登录</a>|</li>
+            <li><a href="./registered.html">注册</a>|</li>
             <li><a href="">移动端下载</a>|</li>
             <li><a href="">卖家移动端下载</a></li>
           </ul>
         </div>
         <div class="head-top-right right">
           <ul>
-            <li><a href="">商城首页</a>|</li>
+            <li><a href="./index.html">商城首页</a>|</li>
             <li><a href="">我的订单</a>|</li>
             <li><a href="">开店申请</a>|</li>
             <li><a href="">注册分销商</a>|</li>
-            <li><a href="">我的收藏</a>|</li>
-            <li><a href="">客服中心</a>|</li>
+            <li><a href=""><i class="el-icon-star-on"></i> 我的收藏</a>|</li>
+            <li><a href=""><i class="el-icon-headset"></i> 客服中心</a>|</li>
           </ul>
         </div>
       </div>
@@ -44,37 +48,1025 @@
             <div class="select-left">商品<p>V</p>
             </div>
             <input type="select">
-            <div class="select-right-border"><button class="select-right">aa</button></div>
-            <img src="../img/headicon.png" alt="">
+            <div class="select-right-border"><button class="select-right"><i class="el-icon-search"
+                  style="width: 10px;height: 10px;color: white;font-weight: bold;"></i></button></div>
+            <a href="" class="hover"><img src="../img/headicon.png" alt=""></a>
             <br>
             <div class="tag" style="margin-left: 46px;width: 640px;">
-              <span><a href="" style="width: 24px;">冰箱</a></span>
-              <span><a href="" style="width: 60px;">滚筒洗衣机</a></span>
-              <span><a href="" style="width: 72px;">格力三代手机</a></span>
-              <span><a href="" style="width: 24px;">金贝</a></span>
+              <span><a href="">冰箱</a></span>
+              <span><a href="">滚筒洗衣机</a></span>
+              <span><a href="">格力三代手机</a></span>
+              <span><a href="">金贝</a></span>
             </div>
           </div>
-
         </div>
-
         <div class="head-center-buycar">
-          <a href="">
+          <a href="" class="hover">
             <img src="../img/cart_empty.png" alt="">
             <div class="car">
               <span style="margin-right: 10px
             ;">购物车</span>
               <span>(</span>
-              <span>1</span>
+              <span>0</span>
               <span>)</span>
             </div>
           </a>
         </div>
       </div>
     </div>
+    <div class="head-bottom">
+      <div class="wrapper">
+        <div class="head-nav"><a href="">全部商品分类</a></div>
+        <ul>
+          <li><a href="">精品冰洗</a></li>
+          <li><a href="">健康家电</a></li>
+          <li><a href="">当季优选</a></li>
+          <li><a href="">精品生活电器</a></li>
+          <li><a href="">精品空调</a></li>
+          <li><a href="">恒温空调</a></li>
+          <li><a href="">风广自然凉</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div id="banner"></div>
-  <div id="main"></div>
-  <div id="foot"></div>
+  <div id="banner">
+    <div class="banner-nav">
+      <div class="wrapper">
+        <div class="nav">
+          <ul>
+            <li>
+              <p><a href="">冰箱</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>酒柜</li>
+                    </ul>
+                    <span><a href="">酒柜</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">热水器</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+
+                    </ul>
+                    <span><a href="">燃气热水器</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>原汁机/破壁机</li>
+                      <li>原汁机/破壁机</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">空气能分体式</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>80L</li>
+                      <li>50L</li>
+                      <li>150L</li>
+                      <li>200L</li>
+                    </ul>
+                    <span><a href="">空气能一体式</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>原汁机/破壁机</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p><a href="">洗衣机</a><span>></span></p>
+              <div class="banner-nav2">
+                <ul>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">洗衣机</a>></span>
+                  </li>
+                  <li>
+                    <ul>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                      <li>单门</li>
+                      <li>双门</li>
+                      <li>三门</li>
+                      <li>多门</li>
+                      <li>对开</li>
+                      <li>冰柜</li>
+                    </ul>
+                    <span><a href="">冰箱</a>></span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div class="wrapper">
+      <div class="main-top">
+        <p>热销推荐</p>
+        <ul>
+          <li>
+            <a href="">
+              <img src="../img/342b6417-cbe2-4d74-a334-efab692492c4.jpg" alt="" class="hover">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../img/29670697-7ca1-4ef3-afe7-c7a7a9c2e252.jpg" alt="" class="hover">
+            </a>
+          </li>
+          <li><a href="">
+              <img src="../img/9564de90-4475-4902-8ffb-e0595a874eaf.jpg" alt="" class="hover">
+            </a>
+          </li>
+          <li><a href="">
+              <img src="../img/edca722e-2b36-48c9-ab5a-be2b88b25b5b.jpg" alt="" class="hover">
+            </a>
+          </li>
+        </ul>
+        <p>每日精选</p>
+        <div class="mrjx">
+          <div class="mrjx1">
+            <a href="https://mall.gree.com/goods/product/details?id=1000032964" class="cursor" title="总部精选01"
+              target="_blank">
+              <img width="300" height="570" src="../img/f1a79c3a-f852-4baf-bddf-76ecfacddee5.jpg" class="hover">
+            </a>
+          </div>
+          <div class="mrjx2">
+            <div class="top1">
+              <a href="https://mall.gree.com/goods/product/details?id=1002957045" class="cursor" title="总部精选02"
+                target="_blank">
+                <img src="../img/b76fcaaf-2451-407e-b90e-f79c764a83cd.jpg" class="hover">
+              </a>
+            </div>
+            <div class="bottom1">
+              <a href="https://mall.gree.com/goods/product/details?id=1000026069" class="cursor" title="总部精选03"
+                target="_blank">
+                <img src="../img/5f07e346-0d5e-4bad-b05e-c94f98e3cb3d.jpg" class="hover">
+              </a>
+            </div>
+            <div class="bottom2">
+              <a href="https://mall.gree.com/goods/product/details?id=1002937670" class="cursor" title="总部精选04"
+                target="_blank">
+                <img src="../img/ad6909de-ece6-4513-9077-2831edbe9b2c.jpg" class="hover">
+              </a>
+            </div>
+          </div>
+          <div class="mrjx3">
+            <div class="top1">
+              <a href="https://mall.gree.com/goods/product/details?id=1000025933" class="cursor" title="总部精选05"
+                target="_blank">
+                <img src="../img/49546d62-f43f-4900-9af0-484fcb635e73.jpg" class="hover">
+              </a>
+            </div>
+            <div class="bottom1">
+              <a href="https://mall.gree.com/goods/product/details?id=1000026080" class="cursor" title="总部精选06"
+                target="_blank">
+                <img
+                  src="https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2019/9/4/d6afd1a4-c448-4868-81f7-34d0b89ad59c.jpg"
+                  class="hover">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-center">
+        <ul>
+          <li class="1f">
+            <div class="F-head">
+              <b>1F</b>
+              <span>冰箱/洗衣机</span>
+              <ul>
+                <li>冰箱/洗衣机</li>
+                <li>草衣机</li>
+                <li>火衣机</li>
+              </ul>
+            </div>
+            <u></u>
+            <ul>
+              <div class="F-left">
+                <li><img src="../img/28412974-e339-485f-8295-b048b36a90e7.jpg" alt="" class="hover"></li>
+              </div>
+              <div class="F-center">
+                <li><img src="../img/326c0389-7879-4361-b82a-f4755856ec8b.jpg" alt="" alt="" class="hover"></li>
+              </div>
+              <div class="F-right">
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+              </div>
+            </ul>
+          </li>
+          <li class="2f">
+            <div class="F-head">
+              <b>2F</b>
+              <span>冰箱/洗衣机</span>
+              <ul>
+                <li>冰箱/洗衣机</li>
+              </ul>
+            </div>
+            <u></u>
+            <ul>
+              <div class="F-left">
+                <li><img src="../img/28412974-e339-485f-8295-b048b36a90e7.jpg" alt="" class="hover"></li>
+              </div>
+              <div class="F-center">
+                <li><img src="../img/326c0389-7879-4361-b82a-f4755856ec8b.jpg" alt="" alt="" class="hover"></li>
+              </div>
+              <div class="F-right">
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+              </div>
+
+            </ul>
+
+          </li>
+          <li class="3f">
+            <div class="F-head">
+              <b>3F</b>
+              <span>冰箱/洗衣机</span>
+              <ul>
+                <li>冰箱/洗衣机</li>
+              </ul>
+            </div>
+            <u></u>
+            <ul>
+              <div class="F-left">
+                <li><img src="../img/28412974-e339-485f-8295-b048b36a90e7.jpg" alt="" class="hover"></li>
+              </div>
+              <div class="F-center">
+                <li><img src="../img/326c0389-7879-4361-b82a-f4755856ec8b.jpg" alt="" alt="" class="hover"></li>
+              </div>
+              <div class="F-right">
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+              </div>
+
+            </ul>
+
+          </li>
+          <li class="4f">
+            <div class="F-head">
+              <b>4F</b>
+              <span>冰箱/洗衣机</span>
+              <ul>
+                <li>冰箱/洗衣机</li>
+              </ul>
+            </div>
+            <u></u>
+            <ul>
+              <div class="F-left">
+                <li><img src="../img/28412974-e339-485f-8295-b048b36a90e7.jpg" alt="" class="hover"></li>
+              </div>
+              <div class="F-center">
+                <li><img src="../img/326c0389-7879-4361-b82a-f4755856ec8b.jpg" alt="" alt="" class="hover"></li>
+              </div>
+              <div class="F-right">
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+              </div>
+
+            </ul>
+
+          </li>
+          <li class="5f">
+            <div class="F-head">
+              <b>5F</b>
+              <span>冰箱/洗衣机</span>
+              <ul>
+                <li>冰箱/洗衣机</li>
+              </ul>
+            </div>
+            <u></u>
+            <ul>
+              <div class="F-left">
+                <li><img src="../img/28412974-e339-485f-8295-b048b36a90e7.jpg" alt="" class="hover"></li>
+              </div>
+              <div class="F-center">
+                <li><img src="../img/326c0389-7879-4361-b82a-f4755856ec8b.jpg" alt="" alt="" class="hover"></li>
+              </div>
+              <div class="F-right">
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+              </div>
+
+            </ul>
+
+          </li>
+          <li class="6f">
+            <div class="F-head">
+              <b>6F</b>
+              <span>冰箱/洗衣机</span>
+              <ul>
+                <li>冰箱/洗衣机</li>
+              </ul>
+            </div>
+            <u></u>
+            <ul>
+              <div class="F-left">
+                <li><img src="../img/28412974-e339-485f-8295-b048b36a90e7.jpg" alt="" class="hover"></li>
+              </div>
+              <div class="F-center">
+                <li><img src="../img/326c0389-7879-4361-b82a-f4755856ec8b.jpg" alt="" alt="" class="hover"></li>
+              </div>
+              <div class="F-right">
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+                <li><a href=""><img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" alt="" class="hover">
+                    <!-- <p> 三门冰箱 270L 智能变频 风冷无霜 BCD-270WIPTGL/浮光金</p> -->
+                    <p>三门冰箱</p>
+                    <span> WiFi智能控制，贴心又省心</span>
+                    <i>￥3499.00</i>
+                  </a></li>
+              </div>
+
+            </ul>
+
+          </li>
+        </ul>
+      </div>
+      <div class="main-bottom">
+        <div class="wrapper">
+          <img src="../img/boss.png" alt="" class="hover">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="foot">
+    <div class="foot-top">
+      <div class="wrapper">
+        <ul style="overflow: hidden;padding: 40px 0; background-color: #fff;">
+
+          <li class="left">
+            <a class="cursor" onclick="adVisit('11','#',3)" target="_blank" title="正品保证" style="width: 100%;">
+              <img src="../img/d31fdb2b-d299-4a2c-afca-a02fcc3de0c4.png" border="0" class="hover">
+            </a>
+          </li>
+
+          <li class="left">
+            <a class="cursor" onclick="adVisit('12','#',3)" target="_blank" title="七天退货" style="width: 100%;">
+              <img src="../img/20ea3c57-6b74-4b03-8c66-b069c1853abb.png" border="0" class="hover">
+            </a>
+          </li>
+
+          <li class="left">
+            <a class="cursor" onclick="adVisit('14','#',3)" target="_blank" title="送货到家" style="width: 100%;">
+              <img src="../img/16adc0c5-d075-4cd5-8661-8efc54dad2b5.png" border="0" class="hover">
+            </a>
+          </li>
+
+          <li class="left" style="border: 0;">
+            <a class="cursor" onclick="adVisit('13','#',3)" target="_blank" title="售后无忧" style="width: 100%;">
+              <img src="../img/8dc037c6-cec1-4aad-8383-fddc6f14dd65.png" border="0" class="hover">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-center">
+      <div class="wrapper">
+        <ul id="document">
+          <li>
+            <dl>
+              <dt>购物指南</dt>
+              <dd><a href="https://mall.gree.com//document/2?mallId=31">格力境外购买须知</a></dd>
+              <dd><a href="https://mall.gree.com//document/2?mallId=24">免责声明</a></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>售后服务</dt>
+              <dd><a href="https://mall.gree.com//document/2?mallId=15">服务时效</a></dd>
+              <dd><a href="https://mall.gree.com//document/2?mallId=14">安装/维修</a></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>常见问题</dt>
+              <dd><a href="https://mall.gree.com//document/2?mallId=32">空调内机条码获取方法</a></dd>
+              <dd><a href="https://mall.gree.com//document/2?mallId=23">订单常见问题说明</a></dd>
+              <dd><a href="https://mall.gree.com//document/2?mallId=22">空调常见问题说明</a></dd>
+              <dd><a href="https://mall.gree.com//document/2?mallId=5">冰箱常见问题说明</a></dd>
+            </dl>
+          </li>
+
+          <li>
+            <dl>
+              <dt>联系我们</dt>
+              <dd><a href="https://mall.gree.com//document/2?mallId=6">联系我们</a></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>服务查询</dt>
+              <dd><a href="https://mall.gree.com//document/2?mallId=26">配送服务查询</a></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>商城支付</dt>
+              <dd><a href="https://mall.gree.com//document/2?mallId=29">商城支付</a></dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="wrapper">
+        <div
+          style="width: 1200px;margin: 0 auto;background-color: #fff; padding: 66px 0 30px 21px;box-sizing: border-box">
+          <div style="color: #b2b2b2;">珠海格力电器股份有限公司版权所有 粤ICP备05006515号</div>
+          <img src="../img/footer_04.png" class="hover">
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

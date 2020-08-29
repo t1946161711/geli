@@ -1,0 +1,142 @@
+#head .head-top {
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+#head .head-top .head-top-left {
+  margin-left: 50px;
+  width: 30%;
+}
+#head .head-top .head-top-left ul {
+  margin-top: 10px;
+  width: 100%;
+}
+#head .head-top .head-top-left ul li {
+  color: #c8c8c8;
+  float: left;
+  margin-bottom: 10px;
+}
+#head .head-top .head-top-left ul li a {
+  line-height: 12px;
+  color: #cc0000;
+  margin: 10px;
+}
+#head .head-top .head-top-right {
+  width: 42%;
+}
+#head .head-top .head-top-right ul {
+  margin-top: 10px;
+  width: 100%;
+}
+#head .head-top .head-top-right ul li {
+  color: #cad3e1;
+  float: left;
+}
+#head .head-top .head-top-right ul li a {
+  line-height: 12px;
+  color: #747474;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+#head .head-top .head-top-right ul li a:hover {
+  color: #cc0000;
+}
+#banner {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #dedede;
+}
+#banner .wrapper {
+  height: 110px;
+  background-color: #FFFFFF;
+}
+#banner .wrapper .banner-left {
+  width: 210px;
+  height: 80px;
+  padding-top: 10px;
+  float: left;
+}
+#banner .wrapper .banner-left img {
+  width: 173px;
+  height: 80px;
+}
+#banner .wrapper .banner-right i {
+  color: #747474;
+  font-size: 24px;
+  margin-right: 16px;
+  line-height: 100px;
+}
+#main {
+  background-color: #F5F5F5;
+  padding: 10px 0;
+}
+#main .main-wrapper {
+  height: 410px;
+  margin: auto;
+}
+#main .main-wrapper img {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 500px;
+  height: 380px;
+  float: left;
+}
+#main .main-wrapper > ul {
+  margin-top: 70px;
+  width: 380px;
+  float: right;
+}
+#main .main-wrapper > ul > li {
+  width: 200px;
+  height: 60px;
+  padding-top: 9px;
+}
+#main .main-wrapper > ul > li .li-right {
+  float: left;
+}
+#main .main-wrapper > ul > li .li-right input {
+  border: 1px solid #747474;
+  outline: none;
+  width: 280px;
+  height: 40px;
+}
+#main .main-wrapper > button {
+  float: left;
+  border: 0;
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: #fffFFF;
+  background-color: #cc0000;
+}
+#foot {
+  background-color: #F5F5F5;
+}
+#foot .foot-center ul {
+  background-color: #FFFFFF;
+  width: 960px;
+  height: 140px;
+  margin: 0 355;
+  padding: 37px 90px 0 150px;
+}
+#foot .foot-center ul li {
+  float: left;
+}
+#foot .foot-center ul dt {
+  width: 150px;
+  height: 35px;
+  font-size: 14px;
+  color: #525252;
+  margin: 0 -15px 0 0;
+  font-weight: bold;
+}
+#foot .foot-center ul dd {
+  width: 150px;
+  height: 26px;
+  font-size: 12px;
+  color: #b2b2b2;
+  margin: 0 -15px 0 0;
+}
+#foot .foot-center ul dd a {
+  color: #b2b2b2;
+}
