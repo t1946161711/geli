@@ -1,3 +1,6 @@
+body {
+  background-color: #F5F5F5;
+}
 #head .head-top {
   background-color: #eeeeee;
   overflow: hidden;
@@ -64,56 +67,124 @@
   margin-right: 16px;
   line-height: 100px;
 }
-#main {
-  background-color: #F5F5F5;
+#main main {
+  width: 980px;
+  margin: 20px auto;
 }
-#main h1 {
-  width: 100px;
+#main .tab_title li {
+  border: 1px solid #e8e8e8;
+  border-top: 2px solid #2daae4;
   text-align: center;
-  margin: auto;
-  padding: 10px 0;
-}
-#main .main-wrapper {
-  padding-top: 110px;
-  height: 380px;
-}
-#main .main-wrapper > ul > li {
-  width: 750px;
-  height: 60px;
-  padding-top: 9px;
-}
-#main .main-wrapper > ul > li .li-left {
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: bold;
+  color: #2daae4;
   float: left;
-  width: 200px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  padding-bottom: 7px;
 }
-#main .main-wrapper > ul > li .li-left span {
+#main .tab_form {
+  min-height: 500px;
+  background: #fff;
+  margin: 0px auto;
+  padding: 20px;
+  margin-top: -1px;
+  border: 1px #e8e8e8 solid;
+  width: 980px;
+  box-sizing: border-box;
+}
+#main .tab_form dl {
+  margin: 30px 10px;
+  width: 750px;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+}
+#main .tab_form dl em {
+  width: 500px;
+  font-size: 12px;
+  position: absolute;
+  left: 500px;
+  top: 0px;
+  color: #474747;
+}
+#main .tab_form dl:nth-of-type(4) input {
+  width: 150px;
+  color: #474747;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  border-radius: 2px;
+}
+#main .tab_form dl:nth-of-type(4) span {
   float: right;
-  margin-right: 10px;
-  line-height: 40px;
+  width: 120px;
+  line-height: 35px;
+  padding: 0px 10px;
+  margin-left: 10px;
+  background: #efefef;
+  color: #828282;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+#main .tab_form dl:nth-of-type(5) input {
+  width: auto;
+  vertical-align: middle;
+}
+#main .tab_form dl:nth-of-type(5) a {
+  vertical-align: middle;
+  font-size: 12px;
+}
+#main .tab_form dl:nth-of-type(5) a:hover {
   color: #cc0000;
 }
-#main .main-wrapper > ul > li .li-left i {
-  color: #747474;
-  float: right;
-}
-#main .main-wrapper > ul > li .li-right {
+#main .tab_form dt {
+  text-align: right;
   float: left;
+  width: 180px;
 }
-#main .main-wrapper > ul > li .li-right input {
-  border: 1px solid #747474;
-  outline: none;
-  width: 280px;
-  height: 40px;
+#main .tab_form dt b {
+  color: #cc0000;
 }
-#main .main-wrapper > button {
-  border: 0;
-  width: 280px;
+#main .tab_form dd {
+  float: left;
+  width: 300px;
+  position: relative;
+}
+#main .tab_form dd input {
+  width: 300px;
+  color: #474747;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  border-radius: 2px;
+}
+#main .tab_form dd .iconfont {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+#main .tab_form .btn input {
+  width: 260px;
   height: 40px;
+  margin-left: 180px;
+  padding: 0px 25px;
+  background: #cc0000;
   text-align: center;
-  margin-left: 200px;
-  margin-top: 80px;
-  color: #fffFFF;
-  background-color: #cc0000;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
 }
 #foot {
   background-color: #F5F5F5;

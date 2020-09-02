@@ -7,6 +7,7 @@
   <title>注册页</title>
   <link rel="stylesheet" href="../style/registered.css">
   <link rel="stylesheet" href="../style/reset.css">
+  <script src="../js/registered.js" type="module"></script>
   <!-- 引入样式 -->
   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
   <!-- 引入组件库 -->
@@ -51,47 +52,80 @@
   </div>
   <div id="main">
     <div class="wrapper">
-      <h1>用户注册</h1>
-      <div class="main-wrapper" style="margin: auto;width: 938px;height: 500px; background-color: #FFFFFF;">
-        <ul>
-          <li>
-            <div class="li-left">
-              <span>*<i>账号</i></span>
+      <main>
+        <div class="tab_title">
+          <ul class="clearfix">
+            <li>用户注册</li>
+            <li style="display: none;">邮箱注册</li>
+          </ul>
+        </div>
+        <div class="tab_form">
+          <form action="http://localhost/gelikongtiao/php/reg.php" method="POST">
+            <dl>
+              <dt>
+                <label for="">
+                  <b>*</b>用户名：
+                </label>
+              </dt>
+              <dd>
+                <input type="text" placeholder="请输入用户名" class="username" name="username">
+                <i class=""></i>
+              </dd>
+              <em></em>
+            </dl>
+            <dl>
+              <dt>
+                <label for="">
+                  <b>*</b>请设置密码：
+                </label>
+              </dt>
+              <dd>
+                <input type="password" placeholder="请输入密码" class="pass1" name="password">
+                <i class=""></i>
+              </dd>
+              <em></em>
+            </dl>
+            <dl>
+              <dt>
+                <label for="">
+                  <b>*</b>请确认密码：
+                </label>
+              </dt>
+              <dd>
+                <input type="password" placeholder="请再次输入密码" class="pass2" name="pass1">
+                <i class=""></i>
+              </dd>
+              <em></em>
+            </dl>
+            <dl>
+              <dt>
+                <label for="">
+                  <b>*</b>验证码：
+                </label>
+              </dt>
+              <dd>
+                <input type="text" placeholder="请输入验证码" class="yzm" name="num">
+                <span class="num">获取验证码</span>
+              </dd>
+              <em></em>
+            </dl>
+            <dl>
+              <dt>
+                &nbsp;
+              </dt>
+              <dd>
+                <input type="checkbox" checked />
+                <a href="#">同意《格力官方商城用户注册协议》和《隐私声明》</a>
+              </dd>
+            </dl>
+            <div class="btn">
+              <input type="submit" value="同意协议并注册" name="submit">
             </div>
-            <div class="li-right">
-              <input type="text" placeholder="请输入账号"><u class="el-icon-user-solid"
-                style="margin-left: -25px;color: #747474;font-size: 18px;"></u>
-            </div>
-          </li>
-          <li>
-            <div class="li-left">
-              <span>*<i>密码</i></span>
-            </div>
-            <div class="li-right">
-              <input type="text" placeholder="请输入密码"><u class="el-icon-lock"
-                style="margin-left: -25px;color: #747474;font-size: 18px;"></u>
-            </div>
-          </li>
-          <li>
-            <div class="li-left">
-              <span>*<i>确认密码</i></span>
-            </div>
-            <div class="li-right">
-              <input type="text" placeholder="请再次输入密码"><u class="el-icon-lock"
-                style="margin-left: -25px;color: #747474;font-size: 18px;"></u>
-            </div>
-          </li>
-        </ul>
-        <p style="margin-left:175px;">
-          <input id="personal" name="personal" type="checkbox" value="111" checked="checked">
-          <a href="#" onclick="$('#mallAgreement').attr('style','');">同意《格力官方商城用户注册协议》和《隐私声明》</a>
-        </p>
-        <button>同意协议并注册</button>
+          </form>
+        </div>
 
-      </div>
-
+      </main>
     </div>
-
   </div>
   <div id="foot">
     <div class="foot-center">

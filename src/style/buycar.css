@@ -40,29 +40,227 @@
 #head .head-top .head-top-right ul li a:hover {
   color: #cc0000;
 }
-#banner {
-  background-color: #F5F5F5;
-  border-bottom: 1px solid #dedede;
+body {
+  background: #fafafa;
 }
-#banner .wrapper {
+.car-head {
+  background: #fff;
   height: 110px;
-  background-color: #FFFFFF;
+  position: relative;
 }
-#banner .wrapper .banner-left {
-  width: 210px;
-  height: 80px;
-  padding-top: 10px;
+.car-head h1 {
   float: left;
-}
-#banner .wrapper .banner-left img {
-  width: 173px;
+  width: 174px;
   height: 80px;
+  margin-top: 10px;
+  padding-right: 30px;
 }
-#banner .wrapper .banner-right i {
+.car-head h1 img {
+  width: 100%;
+  height: 100%;
+}
+.car-head p {
+  width: 482px;
+  height: 48px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(https://mall.gree.com/assets/images/tree.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+.wid .wid_tit {
+  margin: 10px 0;
+}
+.wid .wid_tit h2 {
+  font-size: 18px;
+  height: 25px;
+  line-height: 25px;
   color: #747474;
-  font-size: 24px;
-  margin-right: 16px;
-  line-height: 100px;
+  font-weight: bold;
+}
+.wid .wid_tit .icon-gouwuche1 {
+  color: red;
+  font-size: 22px;
+  margin: 0 5px;
+}
+.wid .list_top {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #cc0000;
+  margin: 10px auto;
+}
+.wid li {
+  float: left;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+.wid .shop_name {
+  text-indent: 21px;
+  width: 500px;
+  text-align: left;
+}
+.wid .wid_dj {
+  width: 150px;
+}
+.wid .wid_sl {
+  width: 95px;
+}
+.wid .wid_hj {
+  width: 180px;
+}
+.wid .wid_cz {
+  width: 120px;
+}
+.main {
+  width: 1200px;
+  margin: 10px auto;
+  border: 1px solid #E8E8E8;
+}
+.main h4 {
+  font-weight: bold;
+  line-height: 50px;
+  padding-left: 20px;
+}
+.main a {
+  font-size: 12px;
+}
+.main a:link {
+  color: #747474;
+}
+.main a:hover {
+  color: #cc0000;
+}
+.main .content_list {
+  width: 1190px;
+  padding: 0 0 10px;
+  margin: auto;
+}
+.main .content_list .listBox {
+  margin-top: 20px;
+}
+.main .content_list .man1_con {
+  width: 1158px;
+  margin: 0 auto;
+  min-height: 110px;
+  background-color: #fafafa;
+  border-top: 1px solid #e8e8e8;
+}
+.main .content_list .man1_con .pad_t20 {
+  padding-top: 20px;
+}
+.main .content_list .man1_con .man1_pro img {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #fff;
+}
+.main .content_list .man1_con .man1_n {
+  margin-left: 10px;
+  line-height: 20px;
+  width: 350px;
+  text-align: left;
+}
+.main .content_list .man1_con .man1_p_m {
+  width: 150px;
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  color: #747474;
+}
+.main .content_list .man1_con .wid_num {
+  float: left;
+  border: 1px solid #ece9e9;
+  height: 26px;
+  line-height: 26px;
+  width: 38px;
+  text-align: center;
+  color: #666;
+  padding: 0 2px;
+  background: #fff;
+}
+.main .content_list .man1_con .wid_jian {
+  float: left;
+  border: 1px solid #ece9e9;
+  height: 28px;
+  line-height: 28px;
+  width: 28px;
+  text-align: center;
+  color: #666;
+  padding: 0 2px;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.main .content_list .man1_con .wid_jia {
+  @extend .wid_jian;
+}
+.main .content_list .man1_con .stock_box {
+  min-height: 30px;
+  line-height: 20px;
+  width: 98px;
+  margin-top: 35px;
+  text-align: center;
+  text-indent: 5px;
+}
+.shop_set {
+  width: 1201px;
+  border: 1px solid #e8e8e8;
+  background-color: #e8e8e8;
+  min-height: 45px;
+  box-shadow: 0px 0px 8px #ddd;
+  font-size: 12px;
+  margin: 20px 0 30px;
+}
+.shop_set a {
+  font-size: 12px;
+}
+.shop_set a:link {
+  color: #747474;
+}
+.shop_set a:hover {
+  color: #cc0000;
+}
+.shop_set .set_left {
+  float: left;
+  width: 300px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+.shop_set .set_left p {
+  float: left;
+  width: 600px;
+  text-align: left;
+  font-size: 16px;
+  color: #747474;
+}
+.shop_set .set_right {
+  float: right;
+  text-align: right;
+}
+.shop_set .set_right .fl {
+  margin: 8px 10px 0 0;
+}
+.shop_set .set_right strong {
+  font-size: 18px;
+  color: #E50011;
+}
+.shop_set .set_right button {
+  width: auto;
+  padding: 0px 25px;
+  background: #cc0000;
+  text-align: center;
+  border: none;
+  font-family: Microsoft Yahei;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
 }
 #foot {
   background-color: #F5F5F5;

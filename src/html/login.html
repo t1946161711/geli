@@ -7,6 +7,11 @@
   <title>登录页</title>
   <link rel="stylesheet" href="../style/login.css">
   <link rel="stylesheet" href="../style/reset.css">
+  <script src="../js/login.js" type="module"></script>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <!-- 引入组件库 -->
+  <script type="module" src="https://unpkg.com/element-ui/lib/index.js"></script>
 </head>
 
 <body>
@@ -47,28 +52,43 @@
   </div>
   <div id="main">
     <div class="wrapper">
+      <main>
+        <div class="main_left left">
+          <img src="https://mall.gree.com/assets/images/login_pic1.png" alt="">
+        </div>
+        <div class="main_right right">
+          <form action="">
+            <ul>
+              <li>
+                <input type="text" placeholder="手机号/用户名/邮箱" class="username">
+                <i class=""></i>
+              </li>
+              <li>
+                <input type="password" placeholder="登陆密码" class="pass">
+                <i class=""></i>
+              </li>
+              <li><button class="btn">登录</button></li>
+              <li>
+                <a href="#">
+                  <i class=""></i>
+                  <span>QQ</span>
+                </a>
+                <a href="#">
+                  <i class=""></i>
+                  <span>微信</span>
+                </a>
+              </li>
+              <li><input type="checkbox" style="width: auto; vertical-align: middle;" class="check111">记住密码</li>
+            </ul>
+            <p>
+              <a href="./registered.html">免费注册</a>
+              <a href="#">忘记密码?</a>
+            </p>
+            <P><em></em></P>
 
-      <div class="main-wrapper" style="width: 980px; background-color: #FFFFFF;">
-        <img src="../img/login_pic1.png" alt="">
-        <ul>
-          <li>
-
-            <div class="li-right">
-              <input type="text" placeholder="请输入账号"><u class="el-icon-user-solid"
-                style="margin-left: -25px;color: #747474;font-size: 18px;"></u>
-            </div>
-          </li>
-          <li>
-
-            <div class="li-right">
-              <input type="text" placeholder="请输入密码"><u class="el-icon-lock"
-                style="margin-left: -25px;color: #747474;font-size: 18px;"></u>
-            </div>
-          </li>
-        </ul>
-        <button>登录</button>
-
-      </div>
+          </form>
+        </div>
+      </main>
 
     </div>
   </div>

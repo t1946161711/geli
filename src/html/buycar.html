@@ -7,6 +7,7 @@
   <title>购物车页</title>
   <link rel="stylesheet" href="../style/buycar.css">
   <link rel="stylesheet" href="../style/reset.css">
+
 </head>
 
 <body>
@@ -34,15 +35,60 @@
       </div>
     </div>
   </div>
-  <div id="banner">
+  <div class="main">
     <div class="wrapper">
-      <div class="banner-left"><a href="https://mall.gree.com/"><img id="logo"
+      <div class="wrap car-head clearfix">
+        <h1>
+          <img
             src="https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/2/86f141a8-3876-4568-86f0-3c343430775c.gif"
-            title="格力董明珠店"></a></div>
-      <div class="banner-right" style="float:left;min-width:160px;width: auto;">
-        <p class="font_24"><i class="mar_r10">|</i><i class="information">购物车</i></p>
+            alt="格力董明珠店">
+        </h1>
+        <p></p>
       </div>
+      <div class="wid wrap cart-checkbox">
+        <div class="wid_tit">
+          <h2><i class="iconfont icon-gouwuche1"></i>我的购物车</h2>
+        </div>
+        <div class="list_top">
+          <ul class="clearfix">
+            <li class="shop_name">
+              <input type="checkbox" checked="" class="allsel">全选 商品信息
+            </li>
+            <li class="wid_dj">单价</li>
+            <li class="wid_sl">数量</li>
+            <li class="wid_hj">合计</li>
+            <li class="wid_cz">操作</li>
+          </ul>
+        </div>
+        <div class="main clearfix">
+          <h4>
+            <span class="fl">
+              <input name="" type="checkbox" checked="" class="allsel">
+              <a href="./list.html">格力董明珠店</a>
+            </span>
+          </h4>
+          <div class="content_list clearfix">
+            <!--普通商品金额-->
 
+          </div>
+        </div>
+        <div class="shop_set clearfix">
+          <div class="set_left">
+            <input type="checkbox" checked="" class="allsel">全选
+            <span class="mar_l30 qb_del"><a href="javascript:;">【批量删除】</a></span>
+          </div>
+
+          <div class="set_left">
+            <p>“去结算”查看满减/折扣优惠</p>
+          </div>
+          <div class="set_right" style="width: 500px;">
+            <div class="fl float_left left">
+              共选中 <strong class="fl_num">0</strong>件商品，总计（不含运费）：<strong class="price_font zongji">￥ 00.00</strong>
+            </div>
+            <div id="btnDisBlock" class="fr float_right right"><button type="button" class="jiesuan">￥去结算</button></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div id="foot">

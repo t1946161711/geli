@@ -10,6 +10,9 @@ h2{
   line-height: 62px;
   
 }
+input{
+  text-decoration: none;
+}
 a,u,del{text-decoration: none;}
 li{list-style: none;}
 body,a{font:12px "微软雅黑"}

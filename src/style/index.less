@@ -1,4 +1,3 @@
-
 #head{
   .head-top{  
     background-color: #eeeeee;
@@ -160,7 +159,7 @@
     }
   }
   .head-bottom{
-    overflow: hidden;
+    height: 36px;
     background-color: #f5f5f5;
     .head-nav{
       width: 142px;
@@ -169,6 +168,114 @@
       padding: 0 0 0 32px;
       background-color: #cc0000;
       float: left;
+      position: relative;
+      &:hover >.banner-nav{
+        display: block;
+      }
+
+      .banner-nav{
+        >.wrapper{
+          width: 174px;
+        }
+        width: 174px;
+        display: block;
+        position: absolute;
+        top: 36px;
+        left: 0;
+        z-index: 1000;
+        .nav{    
+          width: 174px;
+          height: 450px;
+          background-color: rgba(0,0,0,.55);
+          position: relative;
+          >ul{
+            padding-top: 4px;
+            >li{
+              width: 174px;
+              height: 34px;
+              background-color: rgba(255, 255, 255, 0);
+              margin-left: 8px;
+              float: left;
+              &:hover{
+                background-color:#ffffff;
+                >p{
+                  >a{           
+                    color:#cc0000;
+                  }
+                  >span{
+                    color:#cc0000;
+                  } 
+                }
+              }
+              >p{
+                >a{           
+                  margin-left: 35px;
+                  line-height: 34px;
+                  color:#ffffff;
+                }
+                >span{
+                  float: right;
+                  line-height: 34px;
+                  margin-right: 12px;
+                  color:#ffffff;
+                }
+              }
+              >.banner-nav2{
+                border:1px #d3d3d3 solid;  
+                display: none;
+                width: 740px;
+                height: 448px;
+                background-color:#ffffff;
+                position: absolute;
+                top: 0;
+                left: 174px;
+                >ul{
+                  float: left;
+                  >li{  
+                    width: 718px;      
+                    
+                    padding-top: 30px;       
+                    >span{
+                      display: block;
+                      line-height: 34px;
+                      height: 34px;
+                      float: right;
+                      color: #747474;
+                      font-size: 14px;
+                      a{
+                        color: #747474;
+                        font-size: 14px;
+                        font-weight: 800;
+                        margin-right: 12px;
+                        &:hover{
+                          color: #cc0000;
+                        }
+                      }
+                    }
+                    >ul{
+                      width: 458px;
+                      float: right;
+                      margin-right: 90px;
+                      margin-left: 34px;
+                      border-bottom:1px #979797 dashed;
+                      >li{
+                        margin-right: 34px;
+                        line-height: 34px;
+                        font-size: 14px;
+                        height: 34px;
+                        float: left;
+                      }
+                    }
+                  }
+                }
+              }
+              &:hover>.banner-nav2{
+                display: block;
+              }
+            }
+          }
+      }
+    }
       >a{
         color: #FFFFFF;
         &::before{
@@ -180,7 +287,6 @@
       float: left;
       >li{
         display: block;
-        height: 36px;
         float: left;
         margin-left: 30px;
         &:hover{
@@ -198,99 +304,76 @@
   }
 }
 #banner{
+  height: 450px;
+  width: 100%;
   background: url(../img/57b66f57-0168-44fd-b700-262fa4436a62.jpg) center 100% no-repeat;
-  .banner-nav{
-    .nav{    
-      width: 174px;
-      height: 450px;
-      background-color: rgba(0,0,0,.55);
-      position: relative;
-      >ul{
-        padding-top: 4px;
-        >li{
-          width: 174px;
-          height: 34px;
-          background-color: rgba(255, 255, 255, 0);
-          float: left;
-          &:hover{
-            background-color:#ffffff;
-            >p{
-              >a{           
-                color:#cc0000;
-              }
-              >span{
-                color:#cc0000;
-              } 
-            }
-          }
-          >p{
-            >a{           
-              margin-left: 35px;
-              line-height: 34px;
-              color:#ffffff;
-            }
-            >span{
-              float: right;
-              line-height: 34px;
-              margin-right: 12px;
-              color:#ffffff;
-            }
-          }
-          >.banner-nav2{
-            border:1px #d3d3d3 solid;  
-            display: none;
-            width: 740px;
-            height: 448px;
-            background-color:#ffffff;
-            position: absolute;
-            top: 0;
-            left: 174px;
-            >ul{
-              float: left;
-              >li{  
-                width: 740px;      
-                height: 33px;
-                padding-top: 30px;       
-                >span{
-                  display: block;
-                  line-height: 34px;
-                  height: 34px;
-                  float: right;
-                  color: #747474;
-                  font-size: 14px;
-                  a{
-                    color: #747474;
-                    font-size: 14px;
-                    font-weight: 800;
-                    margin-right: 12px;
-                    &:hover{
-                      color: #cc0000;
-                    }
-                  }
-                }
-                >ul{
-                  width: 488px;
-                  float: right;
-                  margin-right: 90px;
-                  margin-left: 34px;
-                  border-bottom:1px #979797 dashed;
-                  >li{
-                    margin-right: 34px;
-                    line-height: 34px;
-                    font-size: 14px;
-                    height: 34px;
-                    float: left;
-                  }
-                }
-              }
-            }
-          }
-          &:hover>.banner-nav2{
+  .banner {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+//图片
+.imgBox {
+    ul {
+        position: absolute;
+        width: 600%;
+        height: 450px;
+    }
+    li {
+        float: left;
+        width: percentage(100/6)/100;
+        height: 100%;
+        span:nth-of-type(1) {
             display: block;
-          }
+            background: url('https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/5/17/174b64de-9655-4999-94ec-edf835463b0c.jpg') no-repeat center;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
         }
-      }
-  }
+    }
+    li:nth-of-type(2) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/6/20/891ed7e1-1d18-418c-9d81-f30a32d0bfa1.jpg);
+        }
+    }
+    li:nth-of-type(3) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/9/211ec53d-f389-4b23-b8db-58ea14227fa7.jpg);
+        }
+    }
+    li:nth-of-type(4) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/10/7cc67fc8-b083-449d-a88c-ca7ce10b1fc7.jpg);
+        }
+    }
+    li:nth-of-type(5) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/9/57b66f57-0168-44fd-b700-262fa4436a62.jpg);
+        }
+    }
+}
+
+//圆点
+.ydBox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    cursor: pointer;
+    li {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+        border-radius: 50%;
+        background: transparent;
+        float: left;
+        border: 1px solid #999999;
+    }
+    .listLi {
+        background: #fff;
+    }
 }
 }
 #main{

@@ -155,7 +155,7 @@
   color: #747474;
 }
 #head .head-bottom {
-  overflow: hidden;
+  height: 36px;
   background-color: #f5f5f5;
 }
 #head .head-bottom .head-nav {
@@ -165,6 +165,108 @@
   padding: 0 0 0 32px;
   background-color: #cc0000;
   float: left;
+  position: relative;
+}
+#head .head-bottom .head-nav:hover > .banner-nav {
+  display: block;
+}
+#head .head-bottom .head-nav .banner-nav {
+  width: 174px;
+  display: block;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  z-index: 1000;
+}
+#head .head-bottom .head-nav .banner-nav > .wrapper {
+  width: 174px;
+}
+#head .head-bottom .head-nav .banner-nav .nav {
+  width: 174px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: relative;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul {
+  padding-top: 4px;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li {
+  width: 174px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 8px;
+  float: left;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li:hover {
+  background-color: #ffffff;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li:hover > p > a {
+  color: #cc0000;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li:hover > p > span {
+  color: #cc0000;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > p > a {
+  margin-left: 35px;
+  line-height: 34px;
+  color: #ffffff;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > p > span {
+  float: right;
+  line-height: 34px;
+  margin-right: 12px;
+  color: #ffffff;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 {
+  border: 1px #d3d3d3 solid;
+  display: none;
+  width: 740px;
+  height: 448px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 174px;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul {
+  float: left;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul > li {
+  width: 718px;
+  padding-top: 30px;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul > li > span {
+  display: block;
+  line-height: 34px;
+  height: 34px;
+  float: right;
+  color: #747474;
+  font-size: 14px;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul > li > span a {
+  color: #747474;
+  font-size: 14px;
+  font-weight: 800;
+  margin-right: 12px;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul > li > span a:hover {
+  color: #cc0000;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul > li > ul {
+  width: 458px;
+  float: right;
+  margin-right: 90px;
+  margin-left: 34px;
+  border-bottom: 1px #979797 dashed;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li > .banner-nav2 > ul > li > ul > li {
+  margin-right: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  height: 34px;
+  float: left;
+}
+#head .head-bottom .head-nav .banner-nav .nav > ul > li:hover > .banner-nav2 {
+  display: block;
 }
 #head .head-bottom .head-nav > a {
   color: #FFFFFF;
@@ -175,7 +277,6 @@
 }
 #head .head-bottom ul > li {
   display: block;
-  height: 36px;
   float: left;
   margin-left: 30px;
 }
@@ -190,94 +291,63 @@
   line-height: 36px;
 }
 #banner {
+  height: 450px;
+  width: 100%;
   background: url(../img/57b66f57-0168-44fd-b700-262fa4436a62.jpg) center 100% no-repeat;
 }
-#banner .banner-nav .nav {
-  width: 174px;
+#banner .banner {
+  width: 100%;
   height: 450px;
-  background-color: rgba(0, 0, 0, 0.55);
   position: relative;
+  overflow: hidden;
 }
-#banner .banner-nav .nav > ul {
-  padding-top: 4px;
-}
-#banner .banner-nav .nav > ul > li {
-  width: 174px;
-  height: 34px;
-  background-color: rgba(255, 255, 255, 0);
-  float: left;
-}
-#banner .banner-nav .nav > ul > li:hover {
-  background-color: #ffffff;
-}
-#banner .banner-nav .nav > ul > li:hover > p > a {
-  color: #cc0000;
-}
-#banner .banner-nav .nav > ul > li:hover > p > span {
-  color: #cc0000;
-}
-#banner .banner-nav .nav > ul > li > p > a {
-  margin-left: 35px;
-  line-height: 34px;
-  color: #ffffff;
-}
-#banner .banner-nav .nav > ul > li > p > span {
-  float: right;
-  line-height: 34px;
-  margin-right: 12px;
-  color: #ffffff;
-}
-#banner .banner-nav .nav > ul > li > .banner-nav2 {
-  border: 1px #d3d3d3 solid;
-  display: none;
-  width: 740px;
-  height: 448px;
-  background-color: #ffffff;
+#banner .imgBox ul {
   position: absolute;
-  top: 0;
-  left: 174px;
+  width: 600%;
+  height: 450px;
 }
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul {
+#banner .imgBox li {
   float: left;
+  width: 16.66666667%;
+  height: 100%;
 }
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul > li {
-  width: 740px;
-  height: 33px;
-  padding-top: 30px;
-}
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul > li > span {
+#banner .imgBox li span:nth-of-type(1) {
   display: block;
-  line-height: 34px;
-  height: 34px;
-  float: right;
-  color: #747474;
-  font-size: 14px;
+  background: url('https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/5/17/174b64de-9655-4999-94ec-edf835463b0c.jpg') no-repeat center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
 }
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul > li > span a {
-  color: #747474;
-  font-size: 14px;
-  font-weight: 800;
-  margin-right: 12px;
+#banner .imgBox li:nth-of-type(2) span {
+  background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/6/20/891ed7e1-1d18-418c-9d81-f30a32d0bfa1.jpg);
 }
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul > li > span a:hover {
-  color: #cc0000;
+#banner .imgBox li:nth-of-type(3) span {
+  background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/9/211ec53d-f389-4b23-b8db-58ea14227fa7.jpg);
 }
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul > li > ul {
-  width: 488px;
-  float: right;
-  margin-right: 90px;
-  margin-left: 34px;
-  border-bottom: 1px #979797 dashed;
+#banner .imgBox li:nth-of-type(4) span {
+  background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/10/7cc67fc8-b083-449d-a88c-ca7ce10b1fc7.jpg);
 }
-#banner .banner-nav .nav > ul > li > .banner-nav2 > ul > li > ul > li {
-  margin-right: 34px;
-  line-height: 34px;
-  font-size: 14px;
-  height: 34px;
+#banner .imgBox li:nth-of-type(5) span {
+  background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/9/57b66f57-0168-44fd-b700-262fa4436a62.jpg);
+}
+#banner .ydBox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  cursor: pointer;
+}
+#banner .ydBox li {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: transparent;
   float: left;
+  border: 1px solid #999999;
 }
-#banner .banner-nav .nav > ul > li:hover > .banner-nav2 {
-  display: block;
+#banner .ydBox .listLi {
+  background: #fff;
 }
 #main {
   background-color: #f5f5f5;
