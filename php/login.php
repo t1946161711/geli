@@ -1,5 +1,5 @@
 <?php
-include "conn.php";
+include "./conn2.php";
 
 if (isset($_POST['user']) && isset($_POST['pass'])) {
     $user = $_POST['user'];
@@ -11,3 +11,4 @@ if (isset($_POST['user']) && isset($_POST['pass'])) {
         echo false;
     }
 }
+?>

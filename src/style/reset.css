@@ -8,7 +8,6 @@ h2{
   font-size: 21px;
   color: #333333;
   line-height: 62px;
-  
 }
 input{
   text-decoration: none;
@@ -25,3 +24,15 @@ i,b,strong,em{font-style:normal;font-weight:normal}
 a{color: #337ab7;}
 .left{float: left;}
 .right{float: right;}
+/* 清除浮动 */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  content: "\200B";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}

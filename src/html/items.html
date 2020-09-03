@@ -7,6 +7,7 @@
   <title>物品详情页</title>
   <link rel="stylesheet" href="../style/items.css">
   <link rel="stylesheet" href="../style/reset.css">
+  <script src="../js/items.js" type="module"></script>
   <!-- 引入样式 -->
   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
   <!-- 引入组件库 -->
@@ -544,69 +545,263 @@
       </div>
     </div>
   </div>
-  <div class="main">
+  <div id="main">
+    <div class="wrapper">
+      <div id="xq" class="wrap">
+        <div id="xq-c">
+          <div class="xq_title">
+            <span><a href="#">办公 </a></span>&gt;
+            <a href="javascrit:;">办公</a> &gt;
+            <a href="javascrit:;">用品 </a> &gt;
+            <a href="javascrit:;" class="xq_tit_t">晶弘三门冰箱 变频318L 高效节能 美味如初 BCD-318WPTC 至尊白</a>
+          </div>
+          <div class="xq_content clearfix">
+            <!-- 放大镜 -->
+            <div class="xq_l left fdj_box">
+              <!-- 小图 盒子-->
+              <div id="spic">
+                <div class="bigtu">
+                  <img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt="" id="smallpic">
+                </div>
+                <div id="sf"></div>
+              </div>
 
-  </div>
-  <div id="foot">
+              <div id="bf">
+                <img src="" alt="" id="bpic">
+              </div>
+              <div id="ulist" class="clearfix">
+                <a href="javascript:;" id="left">&lt;</a>
+                <div id="list">
+                  <!--放大镜下面小图列表-->
+                  <ul class="clearfix">
+                    <!-- <li> <img src="../img/69c2f386-65a1-4a9c-8dec-74a4e1969311.jpg" alt=""></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li> -->
+                  </ul>
+                </div>
+                <a href="javascript:;" id="right">&gt;</a>
+              </div>
+            </div>
+            <div class="xq_r mid">
+              <!-- 内容 -->
+              <div class="mid_con"></div>
+              <!-- <div class="mid_con">
+                <h1 class="tit_h">晶弘三门冰箱 变频318L 高效节能 美味如初 BCD-318WPTC 至尊白</h1>
+                <p class="tit_p">ECO节能变频，健康环保内胆，光触媒技术，高效直流变频压缩机</p>
+                <dl class="clearfix">
+                  <dt>售价：</dt>
+                  <dd class="pri">￥3999.00</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>促销信息：</dt>
+                  <dd></dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>商品评分：</dt>
+                  <dd>
+                    <i class="icon"></i>
+                    <i class="icon"></i>
+                    <i class="icon"></i>
+                    <i class="icon"></i>
+                    <i class="icon"></i>
+                  </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>好评率：</dt>
+                  <dd>99%</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>累计销量：</dt>
+                  <dd class="sailnum">225件</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>配送至：</dt>
+                  <dd>
+                    <select name="" id="">
+                      <option value="">北京市</option>
+                    </select>
+                  </dd>
+                  <dd>包邮</dd>
+                </dl>
+                <dl class="clearfix ">
+                  <dt>&nbsp;</dt>
+                  <dd>由格力董明珠店&nbsp;发货</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>颜色：</dt>
+                  <dd class="color">世尊白</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>数量：</dt>
+                  <dd class="jj">
+                    <a href="javascript:;">-</a>
+                    <input type="text" value="1">
+                    <a href="javascript:;">+</a>
+                  </dd>
+                  <dd>有货</dd>
 
-    <div class="foot-center">
-      <div class="wrapper">
-        <ul id="document">
-          <li>
-            <dl>
-              <dt>购物指南</dt>
-              <dd><a href="https://mall.gree.com//document/2?mallId=31">格力境外购买须知</a></dd>
-              <dd><a href="https://mall.gree.com//document/2?mallId=24">免责声明</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl>
-              <dt>售后服务</dt>
-              <dd><a href="https://mall.gree.com//document/2?mallId=15">服务时效</a></dd>
-              <dd><a href="https://mall.gree.com//document/2?mallId=14">安装/维修</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl>
-              <dt>常见问题</dt>
-              <dd><a href="https://mall.gree.com//document/2?mallId=32">空调内机条码获取方法</a></dd>
-              <dd><a href="https://mall.gree.com//document/2?mallId=23">订单常见问题说明</a></dd>
-              <dd><a href="https://mall.gree.com//document/2?mallId=22">空调常见问题说明</a></dd>
-              <dd><a href="https://mall.gree.com//document/2?mallId=5">冰箱常见问题说明</a></dd>
-            </dl>
-          </li>
+                </dl>
+                <div class="mid_gm clearfix">
+                  <span><i class="iconfont icon-gouwuche1"></i><b>加入购物车</b> </span>
+                  <em>立即购买</em>
+                </div>
+                <dl class="clearfix">
+                  <dt>支付：</dt>
+                  <dd><i class="iconfont icon-shouhou"></i> 立即支付</dd>
+                </dl>
+              </div> -->
 
-          <li>
-            <dl>
-              <dt>联系我们</dt>
-              <dd><a href="https://mall.gree.com//document/2?mallId=6">联系我们</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl>
-              <dt>服务查询</dt>
-              <dd><a href="https://mall.gree.com//document/2?mallId=26">配送服务查询</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl>
-              <dt>商城支付</dt>
-              <dd><a href="https://mall.gree.com//document/2?mallId=29">商城支付</a></dd>
-            </dl>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <div class="wrapper">
-        <div
-          style="width: 1200px;margin: 0 auto;background-color: #fff; padding: 66px 0 30px 21px;box-sizing: border-box">
-          <div style="color: #b2b2b2;">珠海格力电器股份有限公司版权所有 粤ICP备05006515号</div>
-          <img src="../img/footer_04.png" class="hover">
+
+              <div class="r_box">
+                <h3>商家信息</h3>
+                <div class="r_pf ">
+                  <dl class="clearfix">
+                    <dt>服务评价：</dt>
+                    <dd>
+                      <i class="icon1"></i>
+                      <i class="icon1"></i>
+                      <i class="icon1"></i>
+                      <i class="icon1"></i>
+                      <i class="icon1"></i>
+                    </dd>
+                    <dd class="pf_num">4.9分</dd>
+                  </dl>
+                  <dl class="clearfix">
+                    <dt>描述相符：</dt>
+                    <dd>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon3"></i>
+                    </dd>
+                    <dd class="pf_num">4.8分</dd>
+                  </dl>
+                  <dl class="clearfix">
+                    <dt>发货速度：</dt>
+                    <dd>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                    </dd>
+                    <dd class="pf_num">5.0分</dd>
+                  </dl>
+                  <dl class="clearfix">
+                    <dt>态度服务：</dt>
+                    <dd>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                      <i class="icon2"></i>
+                    </dd>
+                    <dd class="pf_num">5.0分</dd>
+                  </dl>
+                </div>
+                <div class="r_gsxx">
+                  <p>
+                    <a href="index1.html"><img
+                        src="https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/2/bb5b9d0b-8cfc-4d1c-a41f-83db33795003.jpg"
+                        alt=""></a>
+                  </p>
+                  <dl class="clearfix">
+                    <dt>店铺名称：</dt>
+                    <dd>格力董明珠店</dd>
+                  </dl>
+                  <dl class="clearfix">
+                    <dt>公司名称：</dt>
+                    <dd>格力电子商务有限公司</dd>
+                  </dl>
+                  <dl class="clearfix">
+                    <dt>所 在 地 ：</dt>
+                    <dd class="gsxx_ip">广东省珠海市香洲区金鸡西路格力电器</dd>
+                  </dl>
+                  <dl class="clearfix">
+                    <dt>客服电话：</dt>
+                    <dd class="gsxx_p">4008365315转7号键</dd>
+                  </dl>
+                  <p><a href="javascrit:;">进入卖家店铺 </a><a href="javascrit:;"><i class="iconfont icon-start1"></i>收藏店铺</a>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="tk_box">
+          <div>
+            <h6>加入购物车成功</h6>
+            <p><a href="javascript:;" class="tk_ll">继续浏览</a><a href="./buycar.html" class="tk_js">去购物车结算</a></p>
+          </div>
+
         </div>
       </div>
     </div>
-  </div>
+    <div id="foot">
+
+      <div class="foot-center">
+        <div class="wrapper">
+          <ul id="document">
+            <li>
+              <dl>
+                <dt>购物指南</dt>
+                <dd><a href="https://mall.gree.com//document/2?mallId=31">格力境外购买须知</a></dd>
+                <dd><a href="https://mall.gree.com//document/2?mallId=24">免责声明</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>售后服务</dt>
+                <dd><a href="https://mall.gree.com//document/2?mallId=15">服务时效</a></dd>
+                <dd><a href="https://mall.gree.com//document/2?mallId=14">安装/维修</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>常见问题</dt>
+                <dd><a href="https://mall.gree.com//document/2?mallId=32">空调内机条码获取方法</a></dd>
+                <dd><a href="https://mall.gree.com//document/2?mallId=23">订单常见问题说明</a></dd>
+                <dd><a href="https://mall.gree.com//document/2?mallId=22">空调常见问题说明</a></dd>
+                <dd><a href="https://mall.gree.com//document/2?mallId=5">冰箱常见问题说明</a></dd>
+              </dl>
+            </li>
+
+            <li>
+              <dl>
+                <dt>联系我们</dt>
+                <dd><a href="https://mall.gree.com//document/2?mallId=6">联系我们</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>服务查询</dt>
+                <dd><a href="https://mall.gree.com//document/2?mallId=26">配送服务查询</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>商城支付</dt>
+                <dd><a href="https://mall.gree.com//document/2?mallId=29">商城支付</a></dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div class="wrapper">
+          <div
+            style="width: 1200px;margin: 0 auto;background-color: #fff; padding: 66px 0 30px 21px;box-sizing: border-box">
+            <div style="color: #b2b2b2;">珠海格力电器股份有限公司版权所有 粤ICP备05006515号</div>
+            <img src="../img/footer_04.png" class="hover">
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>

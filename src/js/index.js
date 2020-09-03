@@ -77,3 +77,29 @@ class Lbt {
   }
 }
 new Lbt().init();
+
+(function () {
+
+  $.ajax({
+    type: "get",
+    url: "../.././php/alldata.php",
+    dataType: "json",
+    success: function (res) {
+      console.log(res);
+      let temp = '';
+      res.forEach((elm, i) => {
+        let picture = JSON.parse(elm.picture);
+        console.log(picture);
+
+        temp += `<li><a href="./items.html?id=${elm.id}">
+        <img src="${picture[0].src}" alt="" alt="" class="hover">
+              <p>${elm.title}</p>
+              <span>${elm.title2}</span>
+              <i>￥${elm.price}</i>
+              </a></li>
+              `;
+      });
+      $('.1f .F-right').append(temp);
+    }
+  });
+})();

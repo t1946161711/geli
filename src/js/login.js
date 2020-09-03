@@ -1,5 +1,5 @@
 import $ from '../js/library/jquery.js'
-import '../js/library/jquery.cookie'
+import '../js/library/jquery.cookie.js'
 
 class Login {
   constructor() {

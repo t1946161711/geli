@@ -495,19 +495,27 @@
   box-shadow: 1px 1px 8px 3px lightgray;
 }
 #main .main-center > ul > li > ul .F-right li p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   display: block;
   color: #3e3a39;
   width: 180px;
+  height: 17px;
   line-height: 17px;
   font-size: 14px;
   margin: 6px 0 0;
   padding: 0 10px;
 }
 #main .main-center > ul > li > ul .F-right li span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   display: block;
   width: 180px;
   color: #979797;
   height: 25px;
+  line-height: 25px;
   font-size: 14px;
   margin: 2px 0 0;
   padding: 0 10px;

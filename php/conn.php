@@ -13,3 +13,4 @@ if ($conn->connect_error) {
 }
 
 $conn->query('SET NAMES UTF8');
+?>
